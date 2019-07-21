@@ -1,7 +1,8 @@
 image: ubuntu
 
 hello-world:
-    tags: kubernetes
+    tags: 
+      - kubernetes
     script: 
         - apt-get update && apt-get install python3
         - python3 helloworld.py
