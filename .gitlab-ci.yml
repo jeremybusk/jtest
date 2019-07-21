@@ -1,6 +1,7 @@
 image: ubuntu
 
 hello-world:
+    image: ubuntu:bionic
     tags: 
       - kubernetes
     script: 
